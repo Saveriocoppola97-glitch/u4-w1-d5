@@ -1,24 +1,26 @@
 package entities;
 // ATTRIBUTI
 public class ElementoMultimediale {
-    protected String titoloCanzone;
+    protected String titoloElemento;
 
 // Costruttore
-public ElementoMultimediale(String titoloCanzone) {
-    this.titoloCanzone = titoloCanzone;
+public ElementoMultimediale(String titoloElemento) {
+    this.titoloElemento = titoloElemento;
    }
 
 // SETTER
-    public void setTitoloCanzone(String titoloCanzone) {
-        this.titoloCanzone = titoloCanzone;
+    public void setTitoloElemento(String titoloElemento) {
+        this.titoloElemento = titoloElemento;
     }
 
 // GETTER
-    public String getTitoloCanzone() {
-        return titoloCanzone;
+    public String getTitoloElemento() {
+        return titoloElemento;
     }
 
 // METODI
     public void play(){
+    }
+    public void show(){
     }
 }
